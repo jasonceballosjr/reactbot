@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node server",
-    "server": "nodemon server"
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client \""
   },
   "repository": {
     "type": "git",
@@ -18,11 +20,18 @@
   },
   "homepage": "https://github.com/jasonceballosjr/reactbot#readme",
   "dependencies": {
+    "axios": "^0.21.1",
+    "concurrently": "^6.1.0",
     "dotenv": "^9.0.2",
     "express": "^4.17.1",
-    "ibm-watson": "^6.0.4"
+    "ibm-watson": "^6.0.4",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
+    "concurrently": "^6.1.0",
     "nodemon": "^2.0.7"
   }
 }
