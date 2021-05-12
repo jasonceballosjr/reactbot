@@ -1,2 +1,0 @@
-# reactbot
-reactbot.dev
