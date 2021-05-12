@@ -1,0 +1,10 @@
+set up redux - manage app state
+set up reducers and action - updates
+setup chat - frontend
+    chat queue
+
+display messages to user
+get and handle session_id
+handle sending user message to api
+adding bot response to queue
+formatting
