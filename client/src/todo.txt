@@ -1,9 +1,9 @@
-set up redux - manage app state
-set up reducers and action - updates
-setup chat - frontend
-    chat queue
+set up redux - manage app state done
+set up reducers and action - updates done
+setup chat - frontend done 
+    chat queue done
 
-display messages to user
+display messages to user done
 get and handle session_id
 handle sending user message to api
 adding bot response to queue
