@@ -4,7 +4,7 @@ setup chat - frontend done
     chat queue done
 
 display messages to user done
-get and handle session_id
+get and handle session_id done
 handle sending user message to api
 adding bot response to queue
 formatting
